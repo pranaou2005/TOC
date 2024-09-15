@@ -1,0 +1,59 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {69 244}
+	}
+	state {
+		coord {236 236}
+	}
+	state {
+		coord {404 235}
+	}
+	state {
+		final {yes}
+		coord {610 236}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	edge 2 3 {
+		transits {c}
+		offset {0.5235987755982988}
+	}
+	edge 0 0 {
+		transits {bc}
+		offset {2.356194490192345}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.643836892098016}
+	}
+	edge 1 0 {
+		transits {c}
+		offset {7.483993942648318}
+	}
+	edge 2 2 {
+		transits {b}
+		offset {1.5385494443596428}
+	}
+	edge 2 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 3 0 {
+		transits {bac}
+		offset {7.351452650622266}
+	}
+	label {
+		text {DFA that accepts string that ends with 'abc'}
+		font {SansSerif 12 -}
+		coord {192 120}
+	}
+}

@@ -1,0 +1,148 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {373 174}
+	}
+	state {
+		coord {575 176}
+	}
+	state {
+		final {yes}
+		coord {783 172}
+	}
+	state {
+		coord {1002 111}
+	}
+	state {
+		coord {356 423}
+	}
+	state {
+		final {yes}
+		coord {566 419}
+	}
+	state {
+		coord {987 458}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.7368738299117299}
+		direction {R}
+		output {d}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.2899586021736937}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.5554129250143014}
+		direction {R}
+		output {b}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 2 2 {
+		transits {b}
+		offset {1.550798992821746}
+		direction {L}
+		output {b}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.6516558719588782}
+		direction {L}
+		output {_}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {1.2348287208687656}
+		direction {L}
+		output {a}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-1.231503712340852}
+		direction {L}
+		output {b}
+	}
+	edge 3 0 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 0 4 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 4 5 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 4 4 {
+		transits {a}
+		offset {-1.7841649689467047}
+		direction {R}
+		output {a}
+	}
+	edge 4 4 {
+		transits {b}
+		offset {2.356194490192345}
+		direction {R}
+		output {b}
+	}
+	edge 5 5 {
+		transits {a}
+		offset {1.4219063791853994}
+		direction {L}
+		output {a}
+	}
+	edge 5 6 {
+		transits {b}
+		offset {0.6377208263496222}
+		direction {L}
+		output {_}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {1.0855693342275603}
+		direction {L}
+		output {a}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {-1.7551207356945957}
+		direction {L}
+		output {b}
+	}
+	edge 6 0 {
+		transits {d}
+		offset {0.13509624558138222}
+		direction {R}
+		output {d}
+	}
+	edge 2 2 {
+		transits {_}
+		offset {-1.3258176636680326}
+		direction {L}
+		output {_}
+	}
+	edge 5 5 {
+		transits {_}
+		offset {-1.5083775167989393}
+		direction {L}
+		output {_}
+	}
+}
